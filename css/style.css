@@ -208,7 +208,7 @@ button {
 .right {
 	float: right;
 }
-@media screen {
+@media screen (max-width: 767px) {
 	#sidebar {
 		float: right;
 		width: 270px;
