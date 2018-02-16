@@ -208,7 +208,20 @@ button {
 .right {
 	float: right;
 }
-
+@media screen {
+	#sidebar {
+		float: right;
+		width: 270px;
+		background-color: #ffffff;
+		margin-top: 20px;
+		padding: 5px;
+	}
+	.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom:0;
+  }
+}
 a:hover .project {
 	background: rgba(74, 170, 165, 0.5);
 }
