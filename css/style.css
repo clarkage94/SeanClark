@@ -13,18 +13,20 @@ body {
 }
 
 .navbar-brand {
-	background-color: #4aaaa5;
+	background-color: #A3CEE3;
 }
 
 .row {
 	background-color: #ffffff
 }
+
 nav {
-	background-color: #4aaaa5;
+	background-color: #A3CEE3;
 	width: 100%;
 	padding: 15px;
 	margin: 0;
-	border-bottom: 2px solid #cccccc;
+	border-bottom: 2px solid #666666;
+	position: fixed;
 }
 
 #headerContent {
@@ -43,7 +45,7 @@ h1 {
 
 #name {
 	padding: 15px;
-	background-color: #4aaaa5;
+	background-color: #A3CEE3;
 }
 
 #nav {
@@ -57,7 +59,7 @@ h1 {
 }
 
 a {
-	color: #777777;
+	color: #666666;
 	text-decoration: none;
 	font-family: 'Titillium Web', sans-serif;
 }
@@ -72,7 +74,7 @@ a {
 }
 
 h2 {
-	color: #4aaaa5;
+	color: #A3CEE3;
 	font-size: 26px;
 	font-weight: bold;
 	font-family: 'Titillium Web', sans-serif;
@@ -81,7 +83,7 @@ h2 {
 
 h3 {
 	font-size: 20px;
-	color: #4aaaa5;
+	color: #A3CEE3;
 	font-weight: bold;
 	font-family: 'Titillium Web', sans-serif;
 	margin: 10px;
@@ -95,7 +97,7 @@ hr {
 
 .groupText {
 	margin: 20px;
-	color: #4aaaa5;
+	color: #A3CEE3;
 	font-size: 18px;
 	font-weight: bold;
 	font-family: 'Titillium Web', sans-serif;
@@ -103,7 +105,7 @@ hr {
 
 .personalText {
 	margin: 20px;
-	color: #4aaaa5;
+	color: #A3CEE3;
 	font-size: 18px;
 	font-weight: bold;
 	font-family: 'Titillium Web', sans-serif;
@@ -154,7 +156,7 @@ p {
 	color: #ffffff;
 	padding: 20px;
 	width: 100%;
-	border-top: 5px solid #4aaaa5;
+	border-top: 5px solid #A3CEE3;
 	position: fixed;
 	left: 0;
 	bottom: 0;
@@ -163,7 +165,7 @@ p {
 button {
 	width: 100px;
 	height: 50px;
-	background-color: #4aaaa5;
+	background-color: #A3CEE3;
 	color: white;
 	margin-top: 10px;
 	font-size: 16px;
@@ -189,7 +191,7 @@ button {
 
 .project {
 	color: white;
-	background-color: #4aaaa5;
+	background-color: #A3CEE3;
 	font-size: 20px;
 	width: 250px;
 	padding: 20px;
@@ -208,20 +210,7 @@ button {
 .right {
 	float: right;
 }
-@media screen (max-width: 767px) {
-	#sidebar {
-		float: right;
-		width: 270px;
-		background-color: #ffffff;
-		margin-top: 20px;
-		padding: 5px;
-	}
-	.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom:0;
-  }
-}
+
 a:hover .project {
 	background: rgba(74, 170, 165, 0.5);
 }
