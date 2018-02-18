@@ -7,14 +7,26 @@
 		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 		<link rel="shortcut icon" href="./images/scFavicon.png" type="image/x-icon" />
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+		<script>
+			if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			  var msViewportStyle = document.createElement("style");
+			    msViewportStyle.appendChild(
+			      document.createTextNode(
+			        "@-ms-viewport{width:auto!important}"
+			      )
+			    );
+			  document.getElementsByTagName("head")[0].
+			  appendChild(msViewportStyle);
+			}
+		</script>
 	</head>
 	<body>
 		<nav class="navbar navbar-fixed-top navbar-light bg-light visible-xs">
 		  <a class="navbar-brand">
-		  	<h1 class="container">Sean Clark</h1>
+		  	<h1 class="container visible-xs">Sean Clark</h1>
 		  </a>
 			<ul class="nav justify-content-end white-space:nowrap">
-			  	<div id="nav">
+			  	<div id="nav visible-xs">
 					<a href="index.html" class="navlinks"> About</a>	|
 					<a href="portfolio.html" class="navlinks">Portfolio</a>	|
 					<a href="contact.html" class="navlinks">Contact</a>
@@ -22,7 +34,7 @@
 			</ul>
 		</nav>
 		</div>
-		<div class="container">
+		<div class="container visible-xs">
 			<div id="main-content">
 				<h2>Portfolio</h2>
 				<hr>
@@ -49,17 +61,17 @@
 						<a href="https://clarkage94.github.io/giphy_hw/" target="_blank"><div class="project right">Giphy API</div></a>
 						
 			</div>
-		<div class="container">
+		<div class="container visible-xs">
 			<div id="sidebar">
 				<h3>Connect with Me</h3>
 				<hr>
-				<a href="https://github.com/clarkage94">
+				<a href="https://github.com/clarkage94" target="_blank">
 					<img src="./images/github-icon.png" alt="GitHub Icon" class="sideLinks">
 				</a>
-				<a href="https://www.linkedin.com/in/sean-clark-280111119/">
+				<a href="https://www.linkedin.com/in/sean-clark-280111119/" target="_blank">
 					<img src="./images/linkedin-icon.png" alt="Linkedin Icon" class="sideLinks">
 				</a>
-				<a href="https://stackoverflow.com/users/8766878/clarkage94?tab=profile">
+				<a href="https://stackoverflow.com/users/8766878/clarkage94?tab=profile" target="_blank">
 					<img src="./images/stackoverflow-icon.png" alt="Stackoverflow Icon" class="sideLinks">
 				</a>
 			</div>
